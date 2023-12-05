@@ -1,0 +1,54 @@
+/* MemoryList.css (styles CSS pour la nouvelle structure) */
+.memory-list {
+    width: 100%;
+  }
+  
+  .memory-container {
+    display: flex; /* Utiliser la flexbox pour aligner les éléments en ligne */
+    justify-content: space-between; /* Espacement égal entre les éléments */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .memory-container.even {
+    background-color: #f69fbe;
+  }
+  
+  .memory-container.odd {
+    background-color: #ffffff;
+  }
+  
+  .memory-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .memory-date {
+    margin: 10px;
+    padding-right: 30px;
+  }
+  
+  .date-square {
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .date-text {
+    font-size: 10px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .memory-text {
+    flex-grow: 1;
+  }
+  

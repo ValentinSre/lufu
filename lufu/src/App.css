@@ -1,0 +1,24 @@
+/* Ajoutez vos styles généraux ici */
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Ajoutez d'autres styles selon vos besoins */
+
+.CalendarView {
+  /* Styles pour la vue du calendrier */
+}
+
+.GlobalCalendarButton {
+  /* Styles pour le bouton "Voir le calendrier complet" */
+}
+
+.FooterShortcuts {
+  /* Styles pour la section des raccourcis dans le pied de page */
+}
