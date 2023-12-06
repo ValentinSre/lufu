@@ -1,0 +1,98 @@
+/* InstagramPost.css */
+.instagram-post {
+    border: 1px solid #e6e6e6;
+    margin: 16px;
+    max-width: 600px;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    padding-bottom: 10px;
+  }
+  
+  .instagram-logo {
+    width: 35px;
+    height: 35px;
+    margin-right: 8px;
+    border-radius: 50%;
+  }
+  
+  .username {
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 0;
+  }
+
+  .username-comment {
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 0;
+    padding-right: 5px;
+  }
+
+  .likes {
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 0;
+    padding-bottom: 5px;
+  }
+  
+  .caption {
+    font-size: 13px;
+    text-justify: auto;
+  }
+  
+  .post-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .post-caption {
+    padding: 8px;
+  }
+
+  .location {
+    padding-left: 5px;
+    font-size: 10px; 
+    margin-top: 2px;
+    color: #999; 
+    line-height: 1; 
+  }
+
+  .post-actions {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    padding-bottom: 0px;
+  }
+  
+  .action-icon {
+    font-size: 24px;
+    margin-right: 8px; /* Ajustez l'espacement entre les icônes */
+  }
+  
+  .save-icon {
+    margin-left: auto; /* Place l'icône "enregistrer" à droite */
+  }
+  
+  .more-icon {
+    margin-left: auto;
+    padding: 8px; 
+  }
+
+  .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Ajoutez d'autres styles selon vos besoins */
+  
