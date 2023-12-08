@@ -20,8 +20,8 @@ const MemoryList: React.FC<MemoryListProps> = ({ memories }) => {
 
   // sort memories by date (most recent first)
   memories.sort((a, b) => {
-    const dateA = new Date(a.date);
-    const dateB = new Date(b.date);
+    const dateA = parseDate(a.date);
+    const dateB = parseDate(b.date);
     return dateB.getTime() - dateA.getTime();
   });
 
@@ -42,7 +42,7 @@ const MemoryList: React.FC<MemoryListProps> = ({ memories }) => {
           <div key={memory.id} className={`memory-container ${index % 2 === 0 ? 'even' : 'odd'}`} onClick={() => navigate(`/memory/${memory.id}`)}>
             <div className="memory-content">
               <div className="memory-date">
-                <div className="date-square">{formatDay(new Date(memory.date).getDate())}</div>
+                <div className="date-square">{formatDay(parseDate(memory.date).getDate())}</div>
                 <div className="date-text">{formatDate(memory.date)}</div>
               </div>
               <div className="memory-text">
@@ -57,15 +57,19 @@ const MemoryList: React.FC<MemoryListProps> = ({ memories }) => {
   );
 };
 
+const parseDate = (dateString: string): Date => {
+  const [month, day, year] = dateString.split('-').map(Number);
+  return new Date(year, month - 1, day);
+};
+
 const formatDay = (day: number): string => {
   return day.toString().padStart(2, '0');
 };
 
 const formatDate = (dateString: string): string => {
-  const date = new Date(dateString);
+  const date = parseDate(dateString);
   const monthAbbreviation = date.toLocaleString('default', { month: 'short' });
 
-  // Keep only the three first letters of the month name
   const month = monthAbbreviation.slice(0, 3) + '.';
 
   const year = date.getFullYear().toString().slice(-2);
