@@ -11,16 +11,15 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import './InstagramPost.css'; 
 
-import ProfilPic from '../static/images/lufu-dark.png';
-
 interface InstagramPostProps {
   username: string;
   imageUrls: string[];
   caption: string;
-  location?: string; // Nouvelle propriété pour la localisation (optionnelle)
+  location?: string;
+  hashtags?: string;
 }
 
-const InstagramPost: React.FC<InstagramPostProps> = ({ username, imageUrls, caption, location }) => {
+const InstagramPost: React.FC<InstagramPostProps> = ({ username, imageUrls, caption, location, hashtags }) => {
 
   const sliderSettings = {
     dots: true,
@@ -33,7 +32,7 @@ const InstagramPost: React.FC<InstagramPostProps> = ({ username, imageUrls, capt
   return (
     <div className="instagram-post">
       <div className="post-header">
-        <img src={ProfilPic} alt="Instagram Logo" className="instagram-logo" />
+        <img src={'/static/images/lufu-dark.png'} alt="Instagram Logo" className="instagram-logo" />
         <div className="header-content">
           <div className="username">{username}</div>
           {location && <div className="location">{location}</div>}
@@ -67,6 +66,7 @@ const InstagramPost: React.FC<InstagramPostProps> = ({ username, imageUrls, capt
         <div className="likes"> 2111 J'aime</div>
         <span className="username-comment">{username}</span>
         <span className="caption">{caption}</span>
+        <div className="hashtags">{hashtags}</div>
       </div>
     </div>
   );

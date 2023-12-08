@@ -44,6 +44,14 @@
     font-size: 13px;
     text-justify: auto;
   }
+
+  .hashtags {
+    font-size: 13px;
+    text-justify: auto;
+    color: #f69fbe;
+    padding-top: 5px;
+    padding-bottom: 8px;
+  }
   
   .post-image img {
     width: 100%;

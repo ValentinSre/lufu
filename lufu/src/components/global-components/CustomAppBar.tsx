@@ -2,7 +2,6 @@
 import React from 'react';
 import { AppBar, IconButton, Toolbar } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import Logo from '../../static/images/logo.jpg';
 import { useNavigate } from 'react-router-dom';
 
 const CustomAppBar: React.FC = () => {
@@ -20,7 +19,7 @@ const CustomAppBar: React.FC = () => {
           <MenuIcon />
         </IconButton>
         <div style={{ flexGrow: 1, textAlign: 'center' }} onClick={handleLogoClick}>
-          <img src={Logo} alt="Lufu" style={{ height: '50px' }} />
+          <img src={'/static/images/logo.jpg'} alt="Lufu" style={{ height: '50px' }} />
         </div>
       </Toolbar>
     </AppBar>
