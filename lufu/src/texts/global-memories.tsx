@@ -64,7 +64,7 @@ const arrayObjets = [
     imageUrls: ['/static/images/details/7-1.JPG', '/static/images/details/7-2.JPG', '/static/images/details/7-3.JPG', '/static/images/details/7-4.JPG', '/static/images/details/7-5.JPG'],
     caption: "À peine intégré à la famille, voilà que je profite sans crier gare à des vacances tous frais payés à la montagne. Une première pour moi avec, (mal)heureusement, pas de ski possible en raison du blocage des remontées. Les vacances sont merveilleuses, à la fois reposantes et épuisantes, je profite d'une ambiance superbe – de laquelle je suis aussi tombé sous le charme – au sein de cette petite famille Thiboult qui m'accueille à bras ouverts. Je suis heureux de passer ces moments magiques avec ma chérie, avec énormément de rire et un peu de froid. L'expérience fut superbe et me laisse de nombreux souvenirs (à l'instar d'une potentielle excursion de la mort à la recherche d'un refuge) 💀 Heureusement, Rocket est restée chez son papi et a fait de belles bêtises.",
     location: "Bonneval-sur-Arc, France",
-    hashtags: "#vacances #ski #famille",
+    hashtags: "#punisher",
     title: "Les pas bronzés font du ski",
     description: "Mes premiers pas à la montagne en hiver, bien accompagné !",
     date: "02-20-2021"

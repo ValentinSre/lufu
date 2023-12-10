@@ -1,0 +1,47 @@
+.question-component {
+    padding: 10px;
+}
+
+.summary {
+    background-color: #8b1123;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.question {
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.answer {
+    width: 95%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.answer-submission {
+    width: 95%;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.picture {
+    width: 50px;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.explanation {
+    padding-top: 5px;
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    text-justify: inter-word;
+}
