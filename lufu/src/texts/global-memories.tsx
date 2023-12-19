@@ -162,7 +162,7 @@ const arrayObjets = [
   {
     id: 17,
     date: "09-10-2022",
-    imageUrls: ['/static/images/details/10-1.JPG'],
+    imageUrls: ['/static/images/details/17-1.jpeg', '/static/images/details/17-2.jpeg'],
     title: "La première réception",
     description: "Peu après notre emménagement, notre famille nous rend visite au complet !",
     location: "Arcachon, France",
@@ -172,7 +172,7 @@ const arrayObjets = [
   {
     id: 18,
     date: "10-01-2022",
-    imageUrls: ['/static/images/details/10-1.JPG'],
+    imageUrls: ['/static/images/details/18-1.JPG'],
     title: "La première remontée vers le nord",
     description: "Quoi de mieux que d'expérimenter un retour au nord avec le mariage de Sandra",
     location: "Igoville, France (entre autres)",
@@ -182,7 +182,7 @@ const arrayObjets = [
   {
     id: 19,
     date: "11-26-2022",
-    imageUrls: ['/static/images/details/10-1.JPG'],
+    imageUrls: ['/static/images/details/19-1.JPG', '/static/images/details/19-2.JPG', '/static/images/details/19-3.JPG', '/static/images/details/19-4.JPG', '/static/images/details/19-5.jpg', '/static/images/details/19-6.jpg'],
     title: "L'arrivée de notre deuxième bébé",
     description: "Quand Gabin le roux devient notre bébé Goose",
     location: "Gradignan, France",
@@ -192,11 +192,11 @@ const arrayObjets = [
   {
     id: 20,
     date: "12-17-2022",
-    imageUrls: ['/static/images/details/10-1.JPG'],
+    imageUrls: ['/static/images/details/20-1.JPG', '/static/images/details/20-2.jpg', '/static/images/details/20-3.PNG', '/static/images/details/20-4.jpg', '/static/images/details/20-5.jpg'],
     title: "Maman s'en va, Goose en panique",
     description: "Première cohabitation réelle entre Goose et son nouveau papa qui se sont peu apprivoisés",
     location: "Gradignan, France",
-    caption: "Petit moment de stress alors que Lilou file à une soirée bretonne, me laissant seul responsable des chats pendant plusieurs jours, alors que Goose ne m’approche toujours pas… Il finit par se forcer mais la cohabitation reste difficile. Reste que je fais une vidéo TikTok de lui chassant sa balle assez amusante. Heureusement, maman est de retour avant le premier gros trajet qui nous attend pour rencontrer toute la famille.",
+    caption: "Petit moment de stress alors que Lilou file à une soirée bretonne, me laissant seul responsable des chats pendant plusieurs jours, alors que Goose ne m'approche toujours pas… Il finit par se forcer mais la cohabitation reste difficile. Reste que je fais une vidéo TikTok de lui chassant sa balle assez amusante. Heureusement, maman est de retour avant le premier gros trajet qui nous attend pour rencontrer toute la famille.",
     hashtags: "#chat #goose"
   },
 ];
