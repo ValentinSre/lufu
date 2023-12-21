@@ -23,7 +23,7 @@ const enigmas: any = [
     {
       picture: "/static/images/enigmas/4.JPG",
       title: "Lannionais emprisonnés",
-      question: "Faisons appel à tes méninges. À de multiples reprises, nous avons eu l(occasion de vivre ensemble sur plusieurs jours voire semaines grâce à mon emploi du temps parfois léger ou à des circonstances particulières… mais te rappellerais-tu combien de jours avons-nous vécu à Lannion ensemble durant la période de confinement d'avril 2021 ?",
+      question: "Faisons appel à tes méninges. À de multiples reprises, nous avons eu l'occasion de vivre ensemble sur plusieurs jours voire semaines grâce à mon emploi du temps parfois léger ou à des circonstances particulières… mais te rappellerais-tu combien de jours avons-nous vécu à Lannion ensemble durant la période de confinement d'avril 2021 ?",
       answer: "29",
       explanation: "J'ai été gentil, j'aurais pu mettre 26 parce que tu t'es échappée au bout de 20 jours - et ce, pendant 3 jours - pour aller faire la fête (et fumer 😱) chez Jade… voyons où tout cela vous a mené aujourd'hui. Nous, en tout cas, cela nous mène à la question suivante."
     },
