@@ -1,0 +1,29 @@
+.quiz-explanation {
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .quiz-completed {
+    margin-top: 20px;
+    background-color: #e8aabe41;
+    color: #64142c;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .result-picture {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }

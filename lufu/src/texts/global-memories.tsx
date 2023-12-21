@@ -199,6 +199,86 @@ const arrayObjets = [
     caption: "Petit moment de stress alors que Lilou file à une soirée bretonne, me laissant seul responsable des chats pendant plusieurs jours, alors que Goose ne m'approche toujours pas… Il finit par se forcer mais la cohabitation reste difficile. Reste que je fais une vidéo TikTok de lui chassant sa balle assez amusante. Heureusement, maman est de retour avant le premier gros trajet qui nous attend pour rencontrer toute la famille.",
     hashtags: "#chat #goose"
   },
+  {
+    id: 21,
+    date: "12-24-2022",
+    imageUrls: ['/static/images/details/21-1.jpg', '/static/images/details/21-2.jpg', '/static/images/details/21-3.jpg', '/static/images/details/21-4.jpg'],
+    title: "Notre premier Noël (réellement) ensemble !",
+    description: "Un premier Noël en famille avec nos familles en commun",
+    location: "Saint Maixent, France",
+    caption: "Peu de choses à dire si ce n'est que ce moment était vraiment superbe. L'alchimie globale est excellente, on a bien évidemment rigolé toute la soirée. J'ai été très gâté de la part de tout le monde (même Mamie Louisette !). Bon, on repassera sur le repas à base d'autruche à l'orange. Sans commentaire.",
+    hashtags: "#noel #christmas #famille"
+  },
+  {
+    id: 22,
+    date: "12-31-2022",
+    imageUrls: ['/static/images/details/22-1.jpg', '/static/images/details/22-2.jpg', '/static/images/details/22-3.jpg', '/static/images/details/22-4.jpg', '/static/images/details/22-5.jpg', '/static/images/details/22-6.jpg', '/static/images/details/22-7.jpg', '/static/images/details/22-8.jpg'],
+    title: "Un jour de l'an en amoureux",
+    description: "Quand Madame concocte un repas de fin gourmet pour le dernier jour de l'année",
+    location: "Gradignan, France",
+    caption: "Alors que nous avions dû rentrer à la maison à cause de la reprise du travail (et oui, la vie de salarié impose des vacances réduites), Lilou a décidé de gentiment me tenir compagnie au lieu de remonter à Rennes. Elle a par ailleurs confectionné un petit plat merveilleux, dont des potatoes légendaires, tandis que nous avions acheté des petits desserts au chocolat. Un réveillon en amoureux, au calme, avec nos bébés, que nous avons aussi passé à jouer aux jeux de société, à regarder Tous en scène et à découvrir It takes Two sur Nintendo Switch (acheté pour l'occasion). Bref, la simplicité avec cependant tout notre amour, de quoi faire une superbe soirée. Ah oui, aussi… j'avais fait une blague en m'habillant bien puis en remettant un pyjama dessus après la douche… Lilou n'a rien vu ni dit, superbe « blague ».",
+    hashtags: "#nouvelan #amoureux"
+  },
+  {
+    id: 23,
+    date: "04-08-2023",
+    imageUrls: ['/static/images/details/23-1.jpg', '/static/images/details/23-2.JPG'],
+    title: "Le début d'un double stage",
+    description: "Quand Lilou nous quitte sur un total de 6 semaines (en deux fois)",
+    location: "Gradignan, France",
+    caption: "Un moment où je me retrouve confronté à la solitude une nouvelle fois après une longue période de vie commune. Une première période plutôt simple moralement, même si les chats participent à la fatigue (et sont en plein dans leur période d'enfer). La deuxième est plus compliquée – en juillet – avec le démarrage de mon nouveau poste sur Toulouse qui demande énormément de temps, cause beaucoup de stress et ennuie beaucoup nos deux bébés. Sans soutien, c'est un peu difficile mais on tient bon. Madame, elle, galère bien dans son champ au milieu des petits cochons.",
+    hashtags: "#stage #ferme"
+  },
+  {
+    id: 24,
+    date: "06-10-2023",
+    imageUrls: ['/static/images/details/24-1.jpg', '/static/images/details/24-2.jpg', '/static/images/details/24-3.jpg', '/static/images/details/24-4.jpg'],
+    title: "Des jeux et du sable",
+    description: "Un petit groupe se confirme avec les amies de Lilou",
+    location: "Lacanau, France",
+    caption: "On retiendra cette date parmi d'autres pour mentionner les agréables moments que l'on passe aussi en plus gros comité, avec les amies d'école de Lilou. D'abord en soirées jeux/BChef à la maison (au grand damn des voisins), puis en week-end plage (presque toutes les semaines de mai et juin) où je m'impose comme le meilleur comique de ma génération tandis que Lilou devient ma partenaire de crime dans l'utilisation de tous les gadgets – dont el famoso pistolero. L'ambiance est géniale, on rigole tout le temps et j'adore passer du temps avec Lilou au milieu de ses amies. On construit un petit groupe très sympathique qui nous ressource, nous sort et nous fait du bien (même si on a parfois l'impression d'être les darons du groupe).",
+    hashtags: "#plage #jeux #amis"
+  },
+  {
+    id: 25,
+    date: "08-14-2023",
+    imageUrls: ['/static/images/details/25-1.jpg', '/static/images/details/25-2.jpg'],
+    title: "Kéni à la maison",
+    description: "Profitant des vacances communes à tout le monde, on reçoit la visite d'une intrue à la maison !",
+    location: "Gradignan, France",
+    caption: "Alors que ma semaine de vacances arrive à son terme après une semaine (enfin, je mens, il me reste 1 semaine), nous sommes de retour à la maison avec Lilou, les chats et... Kénisée ! L'occasion de passer une petite semaine tranquille à la maison où nous avons pu faire énormément d'activité : outre notre première visite à la piscine de la résidence, nous sommes allés trois fois à la plage, nous avons visité le centre-ville de Bordeaux (pour faire des amplettes), un petit ciné pour voir un film nul, un action game absolument incroyable duquel nous sommes ressortis totalement lessivés et bien évidemment une soirée nocturne d'horreur dans un labyrinthe de maïs dans lequel nous avons autant rigolé que flippé. Cette semaine a aussi été l'occasion de voir mon papa avec lequel nous avons fait quelques-unes de ces activités : bref, une superbe semaine de vacances qui nous a permis de profiter de notre petit coin bordelais sans trop se ruiner et d'avoir accès à des activités assez enrichissantes ! Bon, par contre, Kéni ne fait pas la vaisselle...",
+    hashtags: "#vacances"
+  },
+  {
+    id: 26,
+    date: "09-17-2023",
+    imageUrls: ['/static/images/details/26-1.jpg', '/static/images/details/26-2.jpg', '/static/images/details/26-3.jpg', '/static/images/details/26-4.jpg'],
+    title: "Deux fins connaisseurs du rugby",
+    description: "Quand Capgemini nous offre des places aux premières loges d'un match de la Coupe du Monde de rugby",
+    location: "Bordeaux, France",
+    caption: "Grand évènement mais peu de choses à dire, nous avons pu expérimenter tous les deux un match de Coupe du Monde de rugby, dans le stade de Bordeaux. Une expérience assez unique, dans une superbe ambiance, avec un match plein d'essais (enfin, surtout pour l'Afrique du Sud), un temps de merde et pas mal de transport mais… ça reste un moment sympathique vécu à deux.",
+    hashtags: "#rugby #amoureux"
+  },
+  {
+    id: 27,
+    date: "11-25-2023",
+    imageUrls: ['/static/images/details/27-1.jpg', '/static/images/details/27-2.jpg', '/static/images/details/27-3.jpg'],
+    title: "Trois années et des papiers",
+    description: "Un petit restaurant en amoureux qui a failli nous faire perdre la frite...",
+    location: "Villenave-d'Ornon, France",
+    caption: "À l'occasion de nos trois ans, nous nous rendons au restaurant La Côte et l'Arête, un endroit plus sympathique avec une carte assez riche... de laquelle nous avons tous les deux retenu uniquement le burger. Un repas copieux (avec un supplément frites très très copieux) duquel nous sommes ressortis comblés - et encore plus amoureux, en tout cas... L'histoire aurait pu s'arrêter là si Mademoiselle n'avait pas remarqué 3 jours plus tard (le lundi, donc) que son porte-feuille avait totalement disparu. L'occasion d'appeler le cinéma, le restaurant et l'UGC avant de finalement se déplacer au restaurant le lundi soir (en frôlant un accident) pour retrouver le fameux Graal !",
+    hashtags: "#restaurant #amoureux"
+  },
+  {
+    id: 28,
+    date: "12-02-2023",
+    imageUrls: ['/static/images/details/28-1.jpg', '/static/images/details/28-2.jpg', '/static/images/details/28-3.jpg', '/static/images/details/28-4.jpg', '/static/images/details/28-5.JPG', '/static/images/details/28-6.jpg', '/static/images/details/28-7.jpg', '/static/images/details/28-8.jpg', '/static/images/details/28-9.jpg'],
+    title: "Un discours en grandes pompes",
+    description: "Un nouvel aller-retour express pour un mariage qui nous a fait bien rire (ou stresser?)",
+    location: "Thue et Mue, France",
+    caption: "Nouveau périple vers la Normandie, pour un autre mariage ! Ce mariage, bien plus classe, a été une vraie source de stress pour moi puisque j'ai dû faire un discours devant près de 200 personnes. Un discours que j'ai préparé avec beaucoup de soin, de stress et d'angoisse, mais qui a été très bien reçu par les invités et pour lequel j'ai reçu un soutien important de Lilou. Le mariage en lui-même était très beau, avec une ambiance très chaleureuse et une décoration très classe. On a bien rigolé, on a bien mangé (non, je rigole, je me suis fait engueuler par Lilou parce que je ne mangeais rien), on a bien bu, on a bien dansé, on a bien dormi (dans un dortoir plutôt stylé... mais pas que). Bref, j'adore plus que tout ces moments en compagnie de ma chère et tendre auprès de ma famille !",
+    hashtags: "#mariage #famille"
+  },
 ];
 
 export default arrayObjets;

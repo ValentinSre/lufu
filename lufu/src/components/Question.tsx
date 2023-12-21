@@ -41,8 +41,8 @@ const Question: React.FC<QuestionProps> = ({
   const [openExplanation, setOpenExplanation] = useState<boolean>(false);
 
   const handleSubmit = () => {
-    if (userAnswer.toLocaleLowerCase() === answer.toLocaleLowerCase()) {
-        setShowExplanation(true);
+    if (userAnswer.trim().toLocaleLowerCase() === answer.trim().toLocaleLowerCase()) {
+      setShowExplanation(true);
     }
   };
 
