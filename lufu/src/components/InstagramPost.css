@@ -59,7 +59,9 @@
   }
   
   .post-caption {
-    padding: 8px;
+    padding: 20px;
+    text-align: justify;
+    text-justify: inter-word;
   }
 
   .location {
